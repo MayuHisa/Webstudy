@@ -7,14 +7,7 @@ User Agent Stylesheet(これがブラウザに初期から実装されている�
 */
 
 body {
-  background: slategray;
-}
-
-#eyecatch {
-  background: url('eyecatch.jpg') no-repeat;
-  background-size: cover;
-  background-position: 50% 40%;
-  height: 200px;
+  background: white;
 }
 
 .container {
@@ -31,6 +24,20 @@ main {
   background: skyblue;
 }
 
+#left {
+  background: limegreen;
+  float: left;
+  width: 200px;
+
+}
+
+#right {
+  background: lightgreen;
+  float: left;
+  width: 300px;
+}
+
 footer {
-/*  background: slategray; */
+  clear: both;
+  background: slategray;
 }
