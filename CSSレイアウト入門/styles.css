@@ -1,0 +1,36 @@
+/*
+User Agent Stylesheet(これがブラウザに初期から実装されているもの)
+- reset.css
+- normalize.css
+
+の2つが主流
+*/
+
+body {
+  background: slategray;
+}
+
+#eyecatch {
+  background: url('eyecatch.jpg') no-repeat;
+  background-size: cover;
+  background-position: 50% 40%;
+  height: 200px;
+}
+
+.container {
+  width: 500px;
+  margin:0 auto;
+  /* background: pink; */
+}
+
+header {
+  background: tomato;
+}
+
+main {
+  background: skyblue;
+}
+
+footer {
+/*  background: slategray; */
+}

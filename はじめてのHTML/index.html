@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf8">
+    <meta name="description" content="初めてのHTML文書です。">
+    <title>初めてのHTML</title>
+    <link rel="shortcut icon" href="favicon.ico">
+  </head>
+  <body>
+
+<!--
+ol(orderd list)連番リスト / ul(unorder list)箇条書きリスト /li(list item)その名kにあるシルトの中の項目をマークアップしたりする
+定義リスト
+dl(definition list) / dt (definition term) / dd(definition description)
+-->
+
+      <header>
+            <h1>おいしいごはん！</h1>
+            <nav>
+                - ホーム
+                - このサイトについて
+                - プロフィール
+            </nav>
+      </header>
+
+        <article>
+          <h1>文字参照</h1>
+
+
+        <article>
+          <h1>アンケート</h1>
+          <form action="surve.php" method="post" novalidate>
+            <p>メールアドレス: <input type="email" name="email" size="50"placeholder="please enter email" required=""></p>
+            <p>料金: <input type="number" name="price"></p>
+            <p>誕生日: <input type="date" name="birthday"></p>
+            <p><input type="submit" value="送信！"></p>
+
+
+
+
+          <!--
+            <p>お気に入りサーヴァント:
+              <select name="survant">
+                <option value="yariniki" selected>クー・フーリン</option>
+                <option value="robin">ロビン・フッド</option>
+                <option value="koumei">諸葛孔明</option>
+                <option value="bedy">ベディヴィエール</option>
+                <option value="andercen">アンデルセン</option>
+              </select>
+            </p>
+          -->
+
+              <p>お気に入りサーヴァント:
+                <select name="survant" multiple size="5">
+                  <option value="yariniki" selected>クー・フーリン</option>
+                  <option value="robin">ロビン・フッド</option>
+                  <option value="koumei">諸葛孔明</option>
+                  <option value="bedy">ベディヴィエール</option>
+                  <option value="andercen">アンデルセン</option>
+                </select>
+              </p>
+            <p>
+              コメント：
+              <textarea name="comment" cols="40" rows="5">コメント</textarea>
+            </p>
+            <p>
+              <button type="submit"><strong>送信</strong></button>
+            </p>
+            <p>
+              <button type="button">処理をする</button>
+            </p>
+            <p>
+              phone:
+              <label><input type="checkbox" name="phone" value="android" checked> Android</label>
+              <input type="checkbox" name="phone" value="iphone" id="iphone"> <label for="iphone">iPhone</label>
+            </p>
+            <p>
+              Color:
+              <input type="radio" name="color" value="red" checked> Red
+              <input type="radio" name="color" value="blue"> Blue
+            </p>
+
+              </blockquote>
+            <p>ログイン: <input type="password" name="password"></p>
+            <p><input type="hidden" name="user_id" value="23423">
+            <p><input type="submit" value="送信！"></p>
+          </form>
+        </article>
+
+      <section>
+          <h1>今月のおいしいご飯</h1>
+          <article>
+            <h1>おいしいごはん #12</h1>
+              <p>至高のTKG</p>
+              <h2>材料</h2>
+              <ul>
+                <li>卵</li>
+                <li>しょうゆ</li>
+                <li>ごはん</li>
+              </ul>
+              <h2>手順</h2>
+              <ol>
+                <li>まぜる</li>
+                <li>かける</li>
+              </ol>
+              <h2>定義</h2>
+              <dl>
+                <dt>TKG</dt>
+                <dd>TAMAGO KAKE GOHAN</dd>
+              <dl>
+
+
+
+            <pre>
+              poem
+                poem
+                  poem
+            </pre>
+            <blockquote>
+              TKG最高！ by @KIL
+            </blockquote>
+          </article>
+      </section>
+
+      <section>
+          <h1>新着のおいしいご飯</h1>
+          <article>
+            <h1>おいしいごはん #32</h1>
+            はもしゃぶ
+          </article>
+          <article>
+            <h1>おいしいごはん #31</h1>
+            スリランカカレー
+          </article>
+      </section>
+
+      <aside>
+          <h1>おすすめレシピ本</h1>
+          - BOOK 1
+          - BOOK 2
+          - BOOK 3
+      </aside>
+
+      <footer>
+          このサイトは @MAYUMI KILによって運営されています。
+      </footer>
+
+  </body>
+</html>

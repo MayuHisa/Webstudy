@@ -1,0 +1,33 @@
+/* * { color: skyblue;} */
+/*
+h1 { color:skyblue;}
+#first { color: orange;}
+.points { color: violet;}
+*/
+/*
+a[title] { color: skyblue;}
+*/
+
+/*
+a[href="http://google.com"] { color: orange;}
+*/
+
+/*p::first-line { color: skyblue;}*/
+/*p::first-letter { color:skyblue;}*/
+
+body, html { height: 100%; }
+div {
+  background: silver;
+  width: 50%;
+  height: 50%;
+}
+
+p:before {
+  content: "■日記■";
+}
+p::after {
+  content: "----------------End";
+}
+a[class~="search"] { color: violet;}
+
+input:focus { background: skyblue;}
