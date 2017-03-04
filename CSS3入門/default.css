@@ -1,3 +1,95 @@
+div {
+  width: 200px;
+  height: 200px;
+  background: skyblue url('edo.jpg');
+  /*border-radius: 30px /15px;*/
+  /*border-bottom-right-radius: 30px;*/
+  /*border-radius: 10px 20px 30px;*/
+  /*border-radius: 10px 30px;*/
+  border-radius: 50%;
+}
+
+
+/*li:not(.target)
+{
+  background: violet;
+}*/
+/*li:empty
+{
+  background: violet;
+}*/
+/*input[type="text"]:enabled
+{
+  background: violet;
+}*/
+/*input[type="text"]:disabled
+{
+  background: violet;
+}*/
+/*input[type="checkbox"]:checked + label
+{
+  background: violet;
+}*/
+
 /*
 
+ a[href]
+ a[href="foo"]
+ a[href~="foo"]
+
+ a[href^="foo"] fooから始まる
+ a[href$="foo"] fooで終わる
+ a[href*="foo"] fooを含む
 */
+
+/*li:last-child*/
+/*li:nth-child(3)*/
+/*li:nth-child(odd)*/
+/*li:nth-child(even)*/
+/*li:nth-child(3n+1)*/
+/*li:nth-last-child(4)*/
+/*li:only-child*/
+/*p:first-of-type*/
+/*p:last-of-type*/
+/*p:nth-of-type(3)*/
+/*p:nth-of-type(3n+1)*/
+/*p:nth-last-of-type(5)*/
+/*h2:only-of-type
+{
+  background: violet;
+}*/
+
+
+/*a[href^="http"] {color: orange;}*/
+
+/*a[href$=".com"] { color: orange;}*/
+
+/*a[href*=".co.jp"] { color: orange;}*/
+
+
+/*body { background: skyblue;}*/
+
+/*img {
+  border: 7px solid green;
+  opacity: 0.3;
+}
+div {
+  width: 100px;
+  height: 50px;
+}
+
+#box1 {
+  background: rgb(255, 100, 100);
+}
+
+#box2 {
+  background: rgba(255, 100, 100, .2);
+}
+
+#box3 {
+  background: hsla(210, 100%, 50%, .7);
+}
+
+#box4 {
+  background: hsla(210, 100%, 40%, .7);
+}*/
